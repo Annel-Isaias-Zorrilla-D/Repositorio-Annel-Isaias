@@ -109,7 +109,7 @@ float vCost(float D, float tireCost, float ensCost, float oilCost)
 
 void printHeader()
 {
-    printf("\nCliente ---> %s", tabla0.nombre);
+    printf("\nCliente: %s", tabla0.nombre);
     printf("\n---------------------------------------------------------------------------------");
     printf("\n| Distancia\t | Eficiencia\t | Gastos Var.\t | Gastos Comb.\t | Total\t|");
     printf("\n---------------------------------------------------------------------------------");
@@ -123,7 +123,7 @@ void printData(int S, int E)
         printf("\n---------------------------------------------------------------------------------");
         saveFile(i, E + i);
     }
-    printf("\n\nSe ha guardado el archivo con éxito.\n");
+    printf("\n\nSe ha guardado el archivo con Ã©xito.\n");
 }
 
 void saveFile(int X, int E)
